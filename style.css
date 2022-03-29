@@ -1,6 +1,7 @@
 body {
   background: #000;
   font-family: "Roboto", sans-serif;
+  overflow: hidden;
 }
 
 .container {
@@ -20,8 +21,8 @@ body {
 
 .fill {
   position: absolute;
-  height: 160px;
-  width: 160px;
+  height: 200px;
+  width: 200px;
   top: 0px;
   left: 0px;
   cursor: pointer;
@@ -35,22 +36,12 @@ body {
 .empty {
   position: relative;
   display: inline-block;
-  height: 160px;
-  width: 160px;
+  height: 200px;
+  width: 200px;
   border-radius: 10px;
   margin: 2px;
   border: solid 0px salmon;
   background: radial-gradient(#5ac9f9, #4e54ff6b);
-}
-
-.hovered {
-  background: red;
-}
-
-.file {
-  height: 100%;
-  width: 100%;
-  opacity: 0;
 }
 
 .addIcon {
@@ -63,6 +54,12 @@ body {
   height: 100%;
   width: 100%;
   font-weight: 400;
+}
+
+.file {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
 }
 
 .image {
@@ -95,4 +92,8 @@ body {
   color: white;
   z-index: 10;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.hovered {
+  background: red;
 }
