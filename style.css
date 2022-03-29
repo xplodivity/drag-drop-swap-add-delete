@@ -1,5 +1,5 @@
 body {
-  background: #cdcaca;
+  background: #000;
   font-family: "Roboto", sans-serif;
 }
 
@@ -40,7 +40,7 @@ body {
   border-radius: 10px;
   margin: 2px;
   border: solid 0px salmon;
-  background: white;
+  background: radial-gradient(#5ac9f9, #4e54ff6b);
 }
 
 .hovered {
@@ -58,8 +58,8 @@ body {
   justify-content: center;
   align-items: center;
   position: absolute;
-  color: red;
-  font-size: 100px;
+  color: #ffffff;
+  font-size: 80px;
   height: 100%;
   width: 100%;
   font-weight: 400;
